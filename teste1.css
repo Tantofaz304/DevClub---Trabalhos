@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 76px;
+}
+
+input {
+    padding: 10px;
+    width: 250px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    width: 100px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: blue;
+    }
+
+    input, button {
+        width: 100%;
+        max-width: 250px;
+    }
+}

@@ -1,0 +1,132 @@
+.titillium-web-extralight {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.titillium-web-light {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.titillium-web-regular {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.titillium-web-semibold {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.titillium-web-bold {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.titillium-web-black {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.titillium-web-extralight-italic {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.titillium-web-light-italic {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.titillium-web-regular-italic {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.titillium-web-semibold-italic {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.titillium-web-bold-italic {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+header {
+  color: blue;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 15px;
+  word-spacing: 10px;
+  line-height: 50px;
+}
+
+#p1 {
+  color: rgb(229, 145, 0);
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: italic;
+  letter-spacing: 10px;
+  text-align: center;
+}
+
+#p2 {
+  color: red;
+  font-size: 50px;
+
+}
+
+body {
+  background: lightblue;
+}
+
+h1 {
+  color: black;
+}
+
+button {
+  color: goldenrod;
+  font-size: 20px;
+  background: rgb(230, 227, 173);
+}
+
+.box {
+  width: 50px;
+  height: 50px;
+  background: #ff1933;
+  padding: 100px;
+}
+
+.box2 {
+  width: 50px;
+  height: 50px;
+  background: #8be51e;
+  padding: 100px;
+  Padding: 70px 12px 90px 100px;
+  margin: 75px 0px;
+}
+
+aside {
+  color: rgb(56, 33, 158);
+  padding:0px 1000px;
+font-size: 60px
+}
+
+.brawl{
+  height: 1000px;
+  width: 1000px;
+  background: #ff1933;
+}

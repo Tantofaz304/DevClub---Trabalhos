@@ -1,0 +1,156 @@
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin-top: 47px;
+    margin-bottom: 178px;
+    margin-left: 42px;
+    margin-right: 0;
+}
+
+.link-header {
+    color: #17233D;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.875px;
+    cursor: pointer;
+    margin-right: 32px;
+    text-align: center;
+}
+
+.button-header {
+    border-radius: 6px;
+    border: 1px solid #4CB538;
+    background: #6FBF44;
+    width: 124px;
+    height: 51px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 1px;
+     cursor: pointer;
+    position:relative;
+}
+
+.Wide-logo{
+    width: 595.178px;
+    height: 500.005px;
+    flex-shrink: 0;
+    display: inline-block;
+    margin-left: 121px;
+}
+
+section{
+    display: inline-block;
+    margin-left: 96.83px;
+}
+
+h1{
+    color: #161A49;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: 0.596px;
+}
+
+p{
+    color: #4B505A;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    width: 493px;
+    margin-top: 47px;
+    margin-bottom: 55px;
+}
+
+a{
+    color: #6FBF44;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}
+
+@media screen and (max-width: 900px) {
+  h1 {
+  font-size: 30px; /* Tamanho da fonte em pixels */
+  line-height: 30px; /* Altura da linha em pixels */
+  margin-bottom: 15px; /* Margem inferior em pixels */
+  width: 100%; 
+  letter-spacing: 0.596px;
+  font-weight: 700;
+}
+  
+    main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+
+  header {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+  }
+
+  .link-header {
+    display: none;
+  }
+
+  .button-header {
+    position: fixed;
+    top: 1%;
+    left: 70%;
+    display: block;
+
+
+  }
+
+  .Wide-logo {
+  order: 2;
+  max-width: 90%;
+  height: auto;
+  margin: 30px auto 0 auto; /* isso centraliza horizontalmente */
+  display: block;
+  }
+
+  section {
+    order: 1; /* texto primeiro */
+    text-align: center;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+ 
+
+p {
+  font-size: 18px; /* Tamanho da fonte em pixels */
+  line-height: 33px; /* Altura da linha em pixels */
+  margin-bottom: 15px; /* Margem inferior em pixels */
+  width: 100%; /* Faz com que o parágrafo ocupe a largura disponível */
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+a {
+  font-size: 18px; /* Tamanho da fonte em pixels */
+  line-height: 27px; /* Altura da linha em pixels */
+  display: inline-block; /* Para permitir o ajuste do tamanho */
+  width: 100%; /* Faz com que o link ocupe a largura disponível */
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+}

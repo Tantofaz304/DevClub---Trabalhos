@@ -1,0 +1,68 @@
+  * {font-family: Poppins;}
+
+  .primeiro{
+    color: #17233D;
+    letter-spacing: 0.875px;
+    font-weight: 400;
+    font-size: 14px;
+    width: 83px;
+    margin-right: 32px;
+    margin-left: 16px;
+  }
+
+  button{
+    background-color: rgb(18, 211, 18);
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    width: 100px;
+    color: #FFFFFF !important;
+  }
+
+  
+
+p{color: #4B505A;
+font-size: 18px;
+font-weight: 400;
+line-height: 33px; 
+letter-spacing: 0.5px;
+text-align: right;
+margin-right: 200px;}
+
+#take{
+  color: #6FBF44;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+img{
+  margin: 0px;
+  display: inline-block;
+}
+
+h1{color: #161A49;
+  letter-spacing: 0.596px;
+  line-height: 82px;
+  font-weight: 700;
+  font-size: 62px;
+  margin:0px;
+  display: inline-block;}
+
+  @media screen and (max-width: 900px){
+h1{
+  width:40px;
+
+}
+
+img{
+  display: block
+
+  
+
+}
+button{
+  margin-left: 100px;
+  
+}
+}
