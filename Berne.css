@@ -1,0 +1,16 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+
+@media print and (max-width: 600px){div{
+	background: red;
+	width: 300px;
+	height: 500px;
+	color: blue;
+
+
+}}
