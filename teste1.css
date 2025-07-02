@@ -20,7 +20,7 @@ input {
 }
 
 button {
-    background-color: black;
+    background-color: rgb(103, 28, 28);
     color: white;
     border: none;
     cursor: pointer;
