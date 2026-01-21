@@ -3,6 +3,11 @@
   font-size: 101%;
 }
 
+body{
+  margin: 0px;
+  background: linear-gradient(white, black );
+}
+
 h1{
   text-align: center;
   font-size: 210%;
@@ -26,9 +31,8 @@ h3{
  text-align: center;
 }
 
-a:hover{
+.Normal:hover{
   text-decoration: none;
-  color: rgb(185, 173, 173);
   cursor: pointer;
   font-size: 120%;
   
@@ -39,7 +43,7 @@ a:visited{
 }
 
 #bda{
-    color:black;
+    color:rgb(227, 173, 47);
     text-decoration: none;
 }
 
@@ -49,7 +53,7 @@ a:visited{
 
 a{
   height: 50%;
-
+  text-decoration: none;
 }
 
 h1:hover{
@@ -69,3 +73,68 @@ h3:hover{
 #site{
   text-align: center;
   font-size: 10px;}
+
+section{
+  justify-content: space-between;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  width: 60%;
+  border-radius: 10%;
+  transform: translateY(10px);
+  display: flexbox;
+}
+
+#img1{
+  width: 50px;
+}
+
+#img2{
+  width: 50px;
+ transform: translateX(700px);
+}
+
+#bdn {
+  color: rgb(59, 36, 162);
+    text-decoration: none;
+  
+}
+
+#bdn:hover {
+  color: rgb(185, 173, 173);
+}
+
+#bdar:hover{
+  color: rgb(185, 173, 173);
+}
+
+#bdar{
+  color: rgb(239, 239, 86);
+    text-decoration: none;
+}
+
+#bdl{
+  color: rgb(129, 12, 12);
+    text-decoration: none;
+}
+
+#bdm{
+  color: rgb(12, 129, 44);
+    text-decoration: none;
+}
+
+.Extras{
+  text-decoration: none;
+}
+
+#bda-aniversario{
+  color: rgb(0, 0, 0);
+}
+
+#regional{
+  color: rgb(0, 0, 0);
+} 
+
+#fms{
+  color: black;
+  text-decoration: none;
+}
