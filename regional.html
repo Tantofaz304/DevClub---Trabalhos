@@ -10,15 +10,19 @@
 </head>
 <div>
 <body>
-    <h1><a href="index.html">Nacional</a></h1>
+    <h1> <a href="index.html">Regionais</a></h1>
     <h2> Campeões:</h2>
     <ul>
-        Nacional - 2025 <li> - Crispa MC (2x1 Ludovico MC)</li>
-
-        <br>
-        Nacional - 2026 <li> - A Realizar</li>
+       <li id="nordeste"> 1º edição - Nordeste  - <a href="ludovico.html">Ludovico MC</a></li>
+       (2x0 Yuri MC)
+       <br> <br>
+     
+        <li id="sul">1º edição - Sul-Sudeste - <a href="crispa.html">Crispa MC</a></li>
+        (2x0 Binho MC)
+<br> <br>
+        <li id="oeste">1º edição - Oeste- Centro Oeste - <a href="mjapa.html">MJapa</a></li>
+        (W.O - Avelar MC)
         </div>a
-        
 </body>
 </html>
 
@@ -32,29 +36,59 @@ h1{text-align: center;
 div{
     justify-self: center;
     width: 50%;
-    height: 590px;
+    height: 595px;
+    background: linear-gradient(rgb(183, 84, 27), rgb(255, 255, 255) );
     margin-top: 0%;
     border-radius: 10%;
-    background: linear-gradient(rgb(231, 188, 46), rgb(28, 21, 233) );
-    border-style:solid;
-    border-color: rgb(255, 255, 255);
     box-shadow: 10px 10px 9px 3px rgb(0, 0, 0);
 }
 h2{text-align: center;
     color:gold
 }
-ul{margin-left: 38%;}
+ul{list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;}
 p{
     display: inline;
     margin-right: 215%;
 }
 
-body{background: linear-gradient(rgb(28, 21, 233), rgb(231, 188, 46) );}
+body{background: linear-gradient(rgb(255, 255, 255), rgb(183, 84, 27) );}
    
 
 li:hover {
     font-size:130%;
-    cursor: pointer;
     transform: translateY(-10px);transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+#voltar{
+    text-align: center;
+    margin-top: 50%;
+}
+
+li{
+    width: 100%;
+  text-align: center;
+  margin: 10px 0;
+}
+
+#nordeste{
+    color: rgb(255, 0, 0);
+}
+
+#sul{
+    color: rgb(0, 0, 255);
+}
+
+#oeste{
+    color: rgb(3, 96, 3);
+}
+
+a{
+    color: black;
+    text-decoration: none;
 }
 </style>

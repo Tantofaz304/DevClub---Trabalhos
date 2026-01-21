@@ -8,17 +8,19 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
-<div>
 <body>
-    <h1><a href="documento.html">Batalha da Aldeia</a></h1>
+    <a href="index.html"><h1>Batalha da Aldeia</a></h1></a>
+<div>
+
+    
     <h2> Campeões:</h2>
     <ul>
-        1º edição <li> - Ludovico MC</li>
+        1º edição <li> -<a href="ludovico.html"> Ludovico MC</a></li>
 
         <br>
-        2º edição <li> - Crispa MC</li>
+        2º edição <li> - <a href="crispa.html">Crispa MC</a></li>
         <br>
-        3º edição <li> - Ludovico MC</li>
+        3º edição <li> - <a href="ludovico.html">Ludovico MC</a></li>
         <br>
         4º edição <li> - A Realizar</li>
         <br>
@@ -26,7 +28,7 @@
         <br>
         6º edição <li> - A Realizar (Circuito Underground)</li>
         </div>
-        
+        a
 </body>
 </html>
 
@@ -40,10 +42,13 @@ h1{text-align: center;
 div{
     justify-self: center;
     width: 50%;
-    height: 580px;
-    background: rgb(211, 116, 33);
+    height: 610px;
+    background: linear-gradient(rgb(213, 162, 137), rgb(197, 85, 44));
     margin-top: 0%;
     border-radius: 10%;
+    border-style:solid;
+    border-color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 9px 3px rgb(0, 0, 0);
 }
 h2{text-align: center;
     color:gold
@@ -58,7 +63,20 @@ body{background: linear-gradient(rgb(197, 85, 44), rgb(213, 162, 137) );}
    
 
 li:hover {
-    font-size:130%
+    font-size:130%;
+    cursor: pointer;
+    transform: translateY(-10px);transition: transform 0.3s ease;   
     
+}
+
+div:hover {
+    border-style: solid;
+    padding: 1px;
+
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
 }
 </style>
