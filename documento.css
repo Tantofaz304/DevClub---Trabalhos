@@ -187,3 +187,21 @@ section{
 #nacional{
   color:black;
 }
+
+#noticia{
+  padding: 2px;
+  text-align:center;
+  width: 120px;
+  height: 30px;
+  background-color: black;
+  color: rgb(255, 255, 255);
+  border-radius: 8%;
+  margin-right:170px;
+}
+
+#noticia:hover{
+  color: rgb(0, 0, 0);
+  background-color: white;
+  transform: translateY(-10px);
+  transition: transform 0.3s ease;
+}
