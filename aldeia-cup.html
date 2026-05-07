@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Aldeia Cup</title>
+
+  <style>
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:Arial, Helvetica, sans-serif;
+    }
+
+    body{
+      background:#0d0d0d;
+      color:white;
+    }
+
+    header{
+      background:linear-gradient(135deg,#111,#5c00cc,#111);
+      padding:25px 8%;
+      border-bottom:4px solid #9d4edd;
+    }
+
+    #berne{
+      color:#c77dff;
+      font-weight:bold;
+      text-decoration:none;
+    }
+
+    #berne:hover{
+      text-decoration:underline;
+    }
+
+    .header-container{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      flex-wrap:wrap;
+    }
+
+    .logo h1{
+      color:#c77dff;
+      font-size:40px;
+    }
+
+    .logo p{
+      margin-top:5px;
+      opacity:0.8;
+    }
+
+    nav a{
+      text-decoration:none;
+      color:white;
+      margin-left:20px;
+      font-weight:bold;
+      transition:0.3s;
+    }
+
+    nav a:hover{
+      color:#c77dff;
+    }
+
+    /* HERO */
+
+    .hero{
+      height:75vh;
+
+      background:
+      linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.85)),
+      url('https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?q=80&w=1600&auto=format&fit=crop');
+
+      background-size:cover;
+      background-position:center;
+
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      text-align:center;
+
+      padding:20px;
+    }
+
+    .hero-content{
+      max-width:900px;
+    }
+
+    .hero h2{
+      font-size:70px;
+      margin-bottom:20px;
+      text-shadow:0 0 20px #9d4edd;
+    }
+
+    .hero p{
+      font-size:24px;
+      line-height:1.7;
+    }
+
+    section{
+      padding:80px 8%;
+    }
+
+    .title{
+      text-align:center;
+      color:#c77dff;
+      font-size:42px;
+      margin-bottom:50px;
+    }
+
+    /* FORMATOS */
+
+    .formatos{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+      gap:25px;
+    }
+
+    .card{
+      background:#181818;
+      border-left:6px solid #9d4edd;
+      padding:30px;
+      border-radius:18px;
+      transition:0.3s;
+    }
+
+    .card:hover{
+      transform:translateY(-8px);
+      background:#202020;
+    }
+
+    .card h3{
+      color:#c77dff;
+      margin-bottom:20px;
+      font-size:30px;
+    }
+
+    .card p{
+      line-height:1.8;
+      font-size:18px;
+    }
+
+    /* PONTOS */
+
+    .pontos{
+      background:#181818;
+      border-radius:20px;
+      padding:40px;
+    }
+
+    .pontos ul{
+      margin-top:20px;
+      line-height:2;
+      font-size:20px;
+      padding-left:20px;
+    }
+
+    /* PREMIAÇÃO */
+
+    .premiacao{
+      text-align:center;
+      background:linear-gradient(135deg,#4b0082,#7b2cbf);
+      padding:60px;
+      border-radius:25px;
+    }
+
+    .premiacao h2{
+      font-size:50px;
+      margin-bottom:20px;
+    }
+
+    .premiacao p{
+      font-size:24px;
+      line-height:1.8;
+    }
+
+    footer{
+      text-align:center;
+      padding:35px;
+      background:#080808;
+      border-top:3px solid #9d4edd;
+    }
+
+    footer p{
+      opacity:0.8;
+    }
+
+    @media(max-width:768px){
+
+      .hero h2{
+        font-size:45px;
+      }
+
+      .hero p{
+        font-size:18px;
+      }
+
+      nav{
+        margin-top:15px;
+      }
+
+      nav a{
+        display:inline-block;
+        margin:10px;
+      }
+
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+
+  <header>
+
+    <div class="header-container">
+
+      <div class="logo">
+        <h1>Elite Cup</h1>
+        <p>Um dos evento mais insano da Liga do Prédio 🔥</p>
+      </div>
+
+      <nav>
+        <a href="simulacao.html">Voltar</a>
+      </nav>
+
+    </div>
+
+  </header>
+
+  <!-- HERO -->
+
+  <section class="hero">
+
+    <div class="hero-content">
+
+      <h2>Elite Cup</h2>
+
+      <p>
+        Um torneio especial criado para elevar o nível das batalhas.
+        Estratégia, criatividade, resistência e improviso extremo.
+      </p>
+
+    </div>
+
+  </section>
+
+  <!-- FORMATOS -->
+
+  <section>
+
+    <h2 class="title">Formatos da Elite Cup.</h2>
+
+    <div class="formatos">
+
+      <div class="card">
+        <h3>1º Round - Easy Mode</h3>
+
+        <p>
+          Os MCs irão rimar 60s x2.
+          A cada 10 segundos uma palavra aparecerá na tela.
+          O MC deverá rimar utilizando a palavra.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>2º Round - Kick Back</h3>
+
+        <p>
+          O famoso pergunta e resposta.
+          Será um 4x4, onde um MC faz 4 perguntas
+          e o outro responde rimando com a pergunta.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>3º Round - Caixa Misteriosa</h3>
+
+        <p>
+          Uma caixa conterá itens misteriosos
+          e os MCs deverão improvisar utilizando os objetos sorteados.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>4º Round - 60s x3</h3>
+
+        <p>
+          Cada MC rimará 60 segundos 3 vezes,
+          totalizando 6 minutos de batalha intensa.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>5º Round - Deluxe</h3>
+
+        <p>
+          Um bate-volta 4x6.
+          Da 1ª até a 3ª volta será sem beat.
+          A partir da 4ª volta será com beat.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- PONTUAÇÃO -->
+
+  <section>
+
+    <h2 class="title">Sistema de Pontos</h2>
+
+    <div class="pontos">
+
+      <ul>
+        <li>Vitória sem 4º Round = 5 pontos</li>
+        <li>Vitória com 4º Round = 4 pontos</li>
+        <li>Vitória por réplica (5º Round) = 3 pontos</li>
+        <li>Derrota com 4º Round = 1 ponto</li>
+        <li>Derrota por réplica (5º Round) = 2 pontos</li>
+      </ul>
+
+    </div>
+
+  </section>
+
+  <!-- PREMIAÇÃO -->
+
+  <section>
+
+    <div class="premiacao">
+
+      <h2>🏆 Premiação</h2>
+
+      <p>
+        Campeão: 250 pontos no <a href="simulacao.html" id="berne">Ranking Anual</a><br><br>
+
+        Vice-campeão:
+        120 pontos no Ranking Anual
+      </p>
+
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+
+  <footer>
+    <p>© 2026 - Aldeia Cup | Liga do Prédio</p>
+  </footer>
+
+</body>
+</html>
